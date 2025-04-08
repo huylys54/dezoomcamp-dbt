@@ -6,8 +6,8 @@ This dbt project models and analyzes taxi ride data in New York City. It include
 
 The project is organized into the following directories:
 
-- **models/staging**: Contains staging models (`stg_green_tripdata.sql`, `stg_yellow_tripdata.sql`) that clean and prepare raw data for further transformations.
-- **models/core**: Contains core models (`fact_trips.sql`, `dim_zones.sql`, `dm_monthly_zone_revenue.sql`) that define the main data structures for analysis.
+- **models/staging**: Contains staging models  that clean and prepare raw data for further transformations.
+- **models/core**: Contains core models  that define the main data structures for analysis.
 - **seeds**: Contains seed data (`taxi_zone_lookup.csv`) for taxi zones and their metadata.
 - **macros**: Contains reusable SQL macros, such as `get_payment_type_description.sql`.
 - **analyses**: Placeholder for analysis files.
